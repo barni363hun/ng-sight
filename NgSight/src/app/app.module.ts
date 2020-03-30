@@ -10,6 +10,9 @@ import { SectionSalesComponent } from './sections/section-sales/section-sales.co
 import { SectionOrderComponent } from './sections/section-order/section-order.component';
 import { SectionHealthComponent } from './sections/section-health/section-health.component';
 import { appRoutes } from 'src/routes';
+import { BarChartComponent } from './charts/bar-chart/bar-chart.component';
+import { LineChartComponent } from './charts/line-chart/line-chart.component';
+import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { appRoutes } from 'src/routes';
     SidebarComponent,
     SectionSalesComponent,
     SectionOrderComponent,
-    SectionHealthComponent
+    SectionHealthComponent,
+    BarChartComponent,
+    LineChartComponent,
+    PieChartComponent
   ],
   imports: [
     BrowserModule,
